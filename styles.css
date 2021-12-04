@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+  margin: 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #e5e7eb;
+  width: 12vw;
+  font-size: 18px;
+  align-self: right;
+}
+.push {
+  margin-left: auto;
+}
+.items-1 {
+  height: 100%;
+  width: 1000px;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.items-1 > header {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.items-2 {
+  width: 50%;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.sec {
+  font-size: 18px;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  width: 95px;
+  padding: 5px;
+}
+.items-3 {
+  width: 50%;
+  background-color: #1f2937;
+  justify-content: center;
+}
+.items-4 {
+  width: 100vw;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.zcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.items-5 {
+  width: 20vw;
+  border: 1px dashed pink;
+}
+.items-6 {
+  width: 20vw;
+}
+.items-7 {
+  width: 20vw;
+}
+.items-8 {
+  width: 20vw;
+  border: 1px dashed pink;
+}
+
+.items-9 {
+  width: 100vw;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+}
+.items-91 {
+  width: 100vw;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  text-align: right;
+}
+.items-10 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  width: 53%;
+  margin-left: 10vw;
+  border-radius: 8px 0px 0px 8px;
+}
+.items-11 {
+  width: 26.6666%;
+  background-color: #3882f6;
+  text-align: center;
+  /* align-self: center; */
+  /* justify-content: center; */
+  align-items: stretch;
+  padding-top: 39px;
+  margin-right: 10vw;
+  border-radius: 0px 8px 8px 0px;
+}
+#button2 {
+  border: 1px solid white;
+}
+
+.items-12 {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  width: 100vw;
+  padding: 25px;
+  box-sizing: border-box;
+}
